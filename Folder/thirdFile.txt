@@ -4,3 +4,10 @@
     And El usuario ingresa un password correcto
     And El usuario da un click en el boton sign in
     Then Valida que el usuario este en la pagina de MY ACCOUNT
+
+Given: User log in correctly.
+  And: User navigate to “Women” tab.
+  When: User hovers over an article.
+  And: User click on “Add to cart” button
+  And: User click on “Proceed to checkout”
+  Then: User should see the selected article in the page cart
