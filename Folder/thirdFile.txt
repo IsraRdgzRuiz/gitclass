@@ -1,0 +1,6 @@
+ Scenario: Como usuario normal debo poder ingresar a la pagina con un usuario y contrasena correcta
+    Given El usuario esta en la pagina de login
+    When El usuario ingresa una cuenta correcta
+    And El usuario ingresa un password correcto
+    And El usuario da un click en el boton sign in
+    Then Valida que el usuario este en la pagina de MY ACCOUNT
